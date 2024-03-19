@@ -122,9 +122,19 @@ ret
 
 
 
-## Division alp 
+## Division alp:
+```
+org 100h
+mov AL, 70H;
+mov BL, 52H;
+DIV BL
+HLT
+ret
+```
 
-## Output  
+## Output:
+![image](https://github.com/SOMEASVAR/EXPERIMENT--01-ALP-FOR-8086/assets/93434149/ebaeb264-7d41-4863-af21-8756868bd99d)
+
 
 
 ## Result :
