@@ -1,8 +1,9 @@
-# EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
+# EXPERIMENT:01 ALP FOR 8086
+```
+Name : Someasvar R
+Roll no : 212221230103
 Date of experiment :
-
+```
 
 
 
