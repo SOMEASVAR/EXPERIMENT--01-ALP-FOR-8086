@@ -199,7 +199,7 @@ ret
 
 
 ## Result :
- 
+Thus, a program is executed on ALP for the fundamental arithmetic and logical operations successfully.
 
 
 
