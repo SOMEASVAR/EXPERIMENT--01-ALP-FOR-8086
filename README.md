@@ -93,6 +93,7 @@ ret
 ```
 
 ## Output:
+![image](https://github.com/SOMEASVAR/EXPERIMENT--01-ALP-FOR-8086/assets/93434149/1c6ca5fe-7164-4264-b253-a56e988d9e3e)
 
  
 ## Subtraction   of 8 bit numbers  ALP:
@@ -106,6 +107,7 @@ ret
 ```
  
 ## Output:
+![image](https://github.com/SOMEASVAR/EXPERIMENT--01-ALP-FOR-8086/assets/93434149/5bf363f2-a8ff-40b0-abdd-e767eaa543c9)
 
 
 ## Multiplication alp:
@@ -134,7 +136,66 @@ ret
 
 ## Output:
 ![image](https://github.com/SOMEASVAR/EXPERIMENT--01-ALP-FOR-8086/assets/93434149/ebaeb264-7d41-4863-af21-8756868bd99d)
+## AND Operation:
+```
+org 100h
+mov AH, 12H
+mov BH, 45H
+AND AH,BH
+HLT
+ret
 
+```
+## Output:
+![image](https://github.com/SOMEASVAR/EXPERIMENT--01-ALP-FOR-8086/assets/93434149/2b690851-6052-424e-a517-c9ca7302b841)
+
+## OR Operation:
+```
+org 100h
+mov AH, 56H
+mov BH, 67H
+OR AH, BH
+HLT
+ret
+```
+## Output:
+![image](https://github.com/SOMEASVAR/EXPERIMENT--01-ALP-FOR-8086/assets/93434149/edb98527-89fc-40c3-8cf8-66d526d9b3ac)
+## NOT Operation:
+```
+org 100h
+mov AX, 123H
+NOT AX
+HLT
+ret
+```
+## Output:
+![image](https://github.com/SOMEASVAR/EXPERIMENT--01-ALP-FOR-8086/assets/93434149/a94c40af-8cf5-4101-8ae3-ba66496567b1)
+## XOR Operation:
+```
+org 100h
+mov AL, 99H
+mov BL, 88H
+XOR AL,BL
+HLT
+ret
+
+```
+## Output:
+![image](https://github.com/SOMEASVAR/EXPERIMENT--01-ALP-FOR-8086/assets/93434149/ae99e515-ae51-4d02-9022-a9ca5da469a0)
+## Stack Operation:
+```
+org 100h
+mov AX, 1222H
+mov BX, 1333H
+PUSH AX
+PUSH BX
+POP AX
+POP BX
+HLT
+ret
+```
+## Output:
+![image](https://github.com/SOMEASVAR/EXPERIMENT--01-ALP-FOR-8086/assets/93434149/e0cd244a-61d5-4c50-b5ea-98f1b951a5bf)
 
 
 ## Result :
