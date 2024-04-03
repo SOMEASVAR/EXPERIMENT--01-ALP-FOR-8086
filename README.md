@@ -182,20 +182,7 @@ ret
 ```
 ## Output:
 ![image](https://github.com/SOMEASVAR/EXPERIMENT--01-ALP-FOR-8086/assets/93434149/ae99e515-ae51-4d02-9022-a9ca5da469a0)
-## Stack Operation:
-```
-org 100h
-mov AX, 1222H
-mov BX, 1333H
-PUSH AX
-PUSH BX
-POP AX
-POP BX
-HLT
-ret
-```
-## Output:
-![image](https://github.com/SOMEASVAR/EXPERIMENT--01-ALP-FOR-8086/assets/93434149/e0cd244a-61d5-4c50-b5ea-98f1b951a5bf)
+
 
 
 ## Result :
