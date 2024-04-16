@@ -85,32 +85,32 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Addition  of 8 bit ALP:
 ```
 org 100h
-mov AX, 74H;
-mov BX, 20H;
-ADD AX,BX
+mov AL, 74H;
+mov BL, 20H;
+ADD AL,BL
 HLT
 ret
-
-
 ```
 
 ## Output:
-![image](https://github.com/SOMEASVAR/EXPERIMENT--01-ALP-FOR-8086/assets/93434149/6dcf801f-a327-47a6-9fee-65528862205e)
+![image](https://github.com/SOMEASVAR/EXPERIMENT--01-ALP-FOR-8086/assets/93434149/83fe557a-d3b2-4b85-be34-cd30ccd2682b)
+
 
 
  
 ## Subtraction   of 8 bit numbers  ALP:
 ```
 org 100h
-mov AX, 24H;
-mov BX, 20H;
-SUB AX,BX
+mov AL, 24H;
+mov BL, 20H;
+SUB AL,BL
 HLT
 ret
 ```
  
 ## Output:
-![image](https://github.com/SOMEASVAR/EXPERIMENT--01-ALP-FOR-8086/assets/93434149/09c992d3-f7ae-477e-8ae1-46c159ed4115)
+![image](https://github.com/SOMEASVAR/EXPERIMENT--01-ALP-FOR-8086/assets/93434149/3ed16851-934a-407f-b4e1-431c7435bda6)
+
 
 
 
@@ -168,13 +168,14 @@ ret
 ## NOT Operation:
 ```
 org 100h
-mov AX, 12H
-NOT AX
+mov AL, 12H
+NOT AL
 HLT
 ret
 ```
 ## Output:
-![image](https://github.com/SOMEASVAR/EXPERIMENT--01-ALP-FOR-8086/assets/93434149/7b60bb96-00ef-4420-990f-9bd673ebed05)
+![image](https://github.com/SOMEASVAR/EXPERIMENT--01-ALP-FOR-8086/assets/93434149/e1d9928e-c643-4ed1-ae65-0f9ad10716a4)
+
 
 ## XOR Operation:
 ```
