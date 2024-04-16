@@ -168,13 +168,14 @@ ret
 ## NOT Operation:
 ```
 org 100h
-mov AX, 123H
+mov AX, 12H
 NOT AX
 HLT
 ret
 ```
 ## Output:
-![image](https://github.com/SOMEASVAR/EXPERIMENT--01-ALP-FOR-8086/assets/93434149/a94c40af-8cf5-4101-8ae3-ba66496567b1)
+![image](https://github.com/SOMEASVAR/EXPERIMENT--01-ALP-FOR-8086/assets/93434149/7b60bb96-00ef-4420-990f-9bd673ebed05)
+
 ## XOR Operation:
 ```
 org 100h
